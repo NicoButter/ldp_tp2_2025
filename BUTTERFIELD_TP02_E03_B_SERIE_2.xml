@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serie cod="B01" título="Breaking Bad" género="drama">
+    <personajes>
+        <personaje id="p1" tipo="principal">
+            <nombre>Walter White</nombre>
+            <género>M</género>
+            <descripción>Un profesor de química que se convierte en narcotraficante.</descripción>
+        </personaje>
+        <personaje id="p2" tipo="principal">
+            <nombre>Jesse Pinkman</nombre>
+            <género>M</género>
+        </personaje>
+    </personajes>
+    <trama>Un hombre común se adentra en el mundo del crimen para asegurar el futuro de su familia.</trama>
+    <hashtag nombre="crimen"/>
+</serie>

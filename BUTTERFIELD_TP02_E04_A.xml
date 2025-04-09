@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo>
+    <cd>
+        <titulo>Thriller</titulo>
+        <artista>Michael Jackson</artista>
+        <pais>Estados Unidos</pais>
+        <compania>Epic Records</compania>
+        <precio>9.99</precio>
+        <anio>1982</anio>
+    </cd>
+    <cd>
+        <titulo>Abbey Road</titulo>
+        <artista>The Beatles</artista>
+        <pais>Reino Unido</pais>
+        <compania>Apple Records</compania>
+        <precio>12.50</precio>
+        <anio>1969</anio>
+    </cd>
+    <cd>
+        <titulo>The Dark Side of the Moon</titulo>
+        <artista>Pink Floyd</artista>
+        <pais>Reino Unido</pais>
+        <compania>Harvest Records</compania>
+        <precio>11.75</precio>
+        <anio>1973</anio>
+    </cd>
+</catalogo>

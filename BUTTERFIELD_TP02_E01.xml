@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<universidad>
+    <nombre>Universidad Nacional de la Patagonia Austral</nombre>
+    <pais>Argentina</pais>
+    <ciudad>Río Gallegos</ciudad>
+    <fundacion>1995</fundacion>
+
+    <!-- CARRERAS -->
+    <carreras>
+        <carrera id="001">
+            <nombre>Analista de Sistemas</nombre>
+            <duracion>3 anios</duracion>
+            <cantidad_horas>1500</cantidad_horas>
+            <materias>40</materias>
+        </carrera>
+        <carrera id="002">
+            <nombre>Licenciatura en Sistemas</nombre>
+            <duracion>5 anios</duracion>
+            <cantidad_horas>5000</cantidad_horas>
+            <materias>65</materias>
+        </carrera>
+        <carrera id="003">
+            <nombre>Ingeniería en sistemas</nombre>
+            <duracion>6 anios</duracion>
+            <cantidad_horas>6300</cantidad_horas>
+            <materias>70</materias>
+        </carrera>
+    </carreras>
+
+    <!-- ASIGNATURAS -->
+    <asignaturas>
+        <asignatura id="0001" carrera="001">
+            <nombre>Matemática 1</nombre>
+            <anio_de_la_carrera>1</anio_de_la_carrera>
+            <cuatrimestre cuatrimestre="Primero">Primer cuatrimestre</cuatrimestre>
+            <total_de_horas>120</total_de_horas>
+        </asignatura>
+        <asignatura id="0002" carrera="002">
+            <nombre>Programacion Orientada a Objetos</nombre>
+            <anio_de_la_carrera>2</anio_de_la_carrera>
+            <cuatrimestre cuatrimestre="Primero">Primer cuatrimestre</cuatrimestre>
+            <total_de_horas>120</total_de_horas>
+        </asignatura>
+        <asignatura id="0003" carrera="003">
+            <nombre>Matemática 2</nombre>
+            <anio_de_la_carrera>1</anio_de_la_carrera>
+            <cuatrimestre cuatrimestre="Segundo">Segundo Cuatrimestre</cuatrimestre>
+            <total_de_horas>120</total_de_horas>
+        </asignatura>
+        <asignatura id="0004" carrera="002">
+            <nombre>Bases de Datos</nombre>
+            <anio_de_la_carrera>2</anio_de_la_carrera>
+            <cuatrimestre cuatrimestre="Segundo">Segundo cuatrimestre</cuatrimestre>
+            <total_de_horas>120</total_de_horas>
+        </asignatura>
+    </asignaturas>
+
+    <!-- ALUMNOS -->
+    <alumnos>
+        <alumno id="10001">
+            <apellido>González</apellido>
+            <nombre>Juan</nombre>
+            <sexo>M</sexo>
+            <estudios>
+                <carrera codigo="101"/>
+            </estudios>
+            <asignaturas>
+                <asignatura codigo="1011"/>
+                <asignatura codigo="1012"/>
+            </asignaturas>
+        </alumno>
+        <alumno id="10002">
+            <apellido>Pérez</apellido>
+            <nombre>María</nombre>
+            <sexo>F</sexo>
+            <estudios>
+                <carrera codigo="102"/>
+            </estudios>
+            <asignaturas>
+                <asignatura codigo="1021"/>
+            </asignaturas>
+        </alumno>
+    </alumnos>
+
+</universidad>

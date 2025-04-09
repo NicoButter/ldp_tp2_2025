@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serie cod="S01" título="Stranger Things" género="ciencia ficción">
+    <personajes>
+        <personaje id="p1" tipo="principal">
+            <nombre>Eleven</nombre>
+            <género>F</género>
+            <descripción>Una niña con habilidades telequinéticas.</descripción>
+        </personaje>
+        <personaje id="p2" tipo="secundario">
+            <nombre>Mike Wheeler</nombre>
+            <género>M</género>
+        </personaje>
+    </personajes>
+    <trama>Un grupo de amigos descubre misterios sobrenaturales en su pequeño pueblo.</trama>
+    <hashtag nombre="misterio"/>
+    <hashtag nombre="80s"/>
+</serie>
