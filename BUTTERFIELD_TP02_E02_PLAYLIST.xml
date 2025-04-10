@@ -1,0 +1,25 @@
+<playlists>
+    <playlist>
+        <id>1</id>
+        <titulo>Rock Nacional</titulo>
+        <interprete>Charly García</interprete>
+        <cantidad_temas>10</cantidad_temas>
+        <duracion_total>42.50</duracion_total>
+        <generos>
+            <genero_id>101</genero_id>
+            <genero_id>102</genero_id>
+        </generos>
+    </playlist>
+
+    <playlist>
+        <id>2</id>
+        <titulo>Pop Latino</titulo>
+        <interprete>Shakira</interprete>
+        <cantidad_temas>8</cantidad_temas>
+        <duracion_total>30.75</duracion_total>
+        <generos>
+            <genero_id>103</genero_id>
+        </generos>
+    </playlist>
+</playlists>
+  

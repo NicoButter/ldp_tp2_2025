@@ -1,0 +1,28 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="playlists">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="playlist" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" type="xs:integer"/>
+              <xs:element name="titulo" type="xs:string"/>
+              <xs:element name="interprete" type="xs:string"/>
+              <xs:element name="cantidad_temas" type="xs:integer"/>
+              <xs:element name="duracion_total" type="xs:decimal"/>
+              <xs:element name="generos">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="genero_id" type="xs:integer" maxOccurs="unbounded"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

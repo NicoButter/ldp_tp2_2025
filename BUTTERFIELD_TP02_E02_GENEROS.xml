@@ -1,0 +1,14 @@
+<generos>
+  <genero>
+    <id>101</id>
+    <nombre>Rock</nombre>
+  </genero>
+  <genero>
+    <id>102</id>
+    <nombre>Rock Nacional</nombre>
+  </genero>
+  <genero>
+    <id>103</id>
+    <nombre>Pop</nombre>
+  </genero>
+</generos>
