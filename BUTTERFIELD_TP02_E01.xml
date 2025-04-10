@@ -62,11 +62,11 @@
             <nombre>Juan</nombre>
             <sexo>M</sexo>
             <estudios>
-                <carrera codigo="101"/>
+                <carrera codigo="001"/> 
             </estudios>
             <asignaturas>
-                <asignatura codigo="1011"/>
-                <asignatura codigo="1012"/>
+                <asignatura codigo="0001"/> 
+                <asignatura codigo="0002"/> 
             </asignaturas>
         </alumno>
         <alumno id="10002">
@@ -74,10 +74,10 @@
             <nombre>María</nombre>
             <sexo>F</sexo>
             <estudios>
-                <carrera codigo="102"/>
+                <carrera codigo="002"/>
             </estudios>
             <asignaturas>
-                <asignatura codigo="1021"/>
+                <asignatura codigo="0004"/>
             </asignaturas>
         </alumno>
     </alumnos>
