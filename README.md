@@ -84,7 +84,7 @@ Programa que procesa el XML de calificaciones mediante DOM:
 
 ## 🚀 Autor
 
-##Nicolás Butterfield
+## Nicolás Butterfield
 Estudiante de la UNPA - Carrera de Licenciatura en Sistemas  
 Apasionado por el desarrollo, el código limpio y las buenas prácticas.  
 _"Escribir XML sin cerrar etiquetas es como dejar la heladera abierta: algo se va a pudrir."_ 😅
