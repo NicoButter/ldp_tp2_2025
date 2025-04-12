@@ -80,7 +80,7 @@ Programa que procesa el XML de calificaciones mediante DOM:
 
 ¿Tenés alguna duda, sugerencia o querés charlar sobre XML, programación o teorías conspirativas sobre por qué XSLT aún existe?
 
-📧 **Email:** nicolas.tuemail@ejemplo.com  
+📧 **Email:** nicobutter@gmail.com  
 
 ## 🚀 Autor
 
