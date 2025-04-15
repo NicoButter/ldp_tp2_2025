@@ -80,11 +80,11 @@ Programa que procesa el XML de calificaciones mediante DOM:
 
 ¿Tenés alguna duda, sugerencia o querés charlar sobre XML, programación o teorías conspirativas sobre por qué XSLT aún existe?
 
-📧 **Email:** nicolas.tuemail@ejemplo.com  
+📧 **Email:** nicobutter@gmail.com  
 
 ## 🚀 Autor
 
-**Nicolás Butterfield
+## Nicolás Butterfield
 Estudiante de la UNPA - Carrera de Licenciatura en Sistemas  
 Apasionado por el desarrollo, el código limpio y las buenas prácticas.  
 _"Escribir XML sin cerrar etiquetas es como dejar la heladera abierta: algo se va a pudrir."_ 😅
