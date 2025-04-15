@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet version="1.0"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:output method="html" indent="yes" />
 
     <xsl:template match="/">
         <html>
             <head>
-                <title>Calificaciones del <xsl:value-of select="calificaciones/@fecha" /></title>
+                <title>Calificaciones del <xsl:value-of select="calificaciones/@fecha" />
+                </title>
                 <style>
                     table {
                     border-collapse: collapse;
@@ -36,7 +38,8 @@
                 </style>
             </head>
             <body>
-                <h1>Calificaciones del <xsl:value-of select="calificaciones/@fecha" /></h1>
+                <h1>Calificaciones del <xsl:value-of select="calificaciones/@fecha" />
+                </h1>
 
                 <!-- Tabla de calificaciones -->
                 <table>
@@ -76,11 +79,12 @@
 
                 <!-- Resumen -->
                 <div class="resumen">
-                    <p>Total alumnos: <xsl:value-of select="count(calificaciones/alumno)" /></p>
-                    <p>Aprobados (nota > 70): <xsl:value-of
-                            select="count(calificaciones/alumno[nota > 70])" /></p>
-                    <p>Desaprobados: <xsl:value-of
-                            select="count(calificaciones/alumno[nota &lt;= 70])" /></p>
+                    <p>Total alumnos: <xsl:value-of select="count(calificaciones/alumno)" />
+                    </p>
+                    <p>Aprobados (nota > 70): <xsl:value-of select="count(calificaciones/alumno[nota > 70])" />
+                    </p>
+                    <p>Desaprobados: <xsl:value-of select="count(calificaciones/alumno[nota &lt;= 70])" />
+                    </p>
                 </div>
 
                 <!-- Generar archivo XML con aprobados -->
