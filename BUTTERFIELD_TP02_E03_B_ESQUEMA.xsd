@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Ejercicio de la materia "Laboratorio de Programación" de la carrera Licenciatura en Sistemas,
+    Universidad Nacional de la Patagonia Austral (UNPA).
+
+    Archivo XSD que define la estructura válida para un documento XML sobre series de televisión,
+    incluyendo personajes, trama, hashtags y atributos como código, título y género.
+
+    Realizado como parte del trabajo práctico n°2, ejercicio 03.
+
+    Autor: Nicolás Butterfield
+    Año: 2025
+-->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:element name="serie">
         <xs:complexType>

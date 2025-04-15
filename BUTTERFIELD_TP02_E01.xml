@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Ejercicio de la materia "Laboratorio de Programación" de la carrera Licenciatura en Sistemas,
+    Universidad Nacional de la Patagonia Austral (UNPA).
+    
+    Este archivo XML representa la estructura de datos de una universidad, incluyendo carreras, 
+    asignaturas y alumnos, y fue realizado como parte del trabajo práctico N°02 ejercicio 01.
+
+    Autor: Nicolás Butterfield
+    Año: 2025
+-->
 <universidad>
     <nombre>Universidad Nacional de la Patagonia Austral</nombre>
     <pais>Argentina</pais>

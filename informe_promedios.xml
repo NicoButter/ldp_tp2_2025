@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<informePromedios>
+    <alumno nombre="Maria Lopez">
+        <promedio>35,00</promedio>
+    </alumno>
+    <alumno nombre="Juan Perez">
+        <promedio>72,50</promedio>
+    </alumno>
+    <alumno nombre="Luis Gomez">
+        <promedio>60,00</promedio>
+    </alumno>
+</informePromedios>

@@ -1,14 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Ejercicio de la materia "Laboratorio de Programación" de la carrera Licenciatura en Sistemas,
+    Universidad Nacional de la Patagonia Austral (UNPA).
+    
+    Archivo XML de géneros musicales.
+    Realizado como parte del trabajo práctico 02, ejercicio 02,
+
+    Autor: Nicolás Butterfield
+    Año: 2025
+-->
 <generos>
-  <genero>
-    <id>101</id>
-    <nombre>Rock</nombre>
-  </genero>
-  <genero>
-    <id>102</id>
-    <nombre>Rock Nacional</nombre>
-  </genero>
-  <genero>
-    <id>103</id>
-    <nombre>Pop</nombre>
-  </genero>
+    <genero>
+        <id>101</id>
+        <nombre>Rock</nombre>
+    </genero>
+    <genero>
+        <id>102</id>
+        <nombre>Rock Nacional</nombre>
+    </genero>
+    <genero>
+        <id>103</id>
+        <nombre>Pop</nombre>
+    </genero>
 </generos>

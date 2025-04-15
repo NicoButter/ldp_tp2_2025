@@ -1,3 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Ejercicio de la materia "Laboratorio de Programación" de la carrera Licenciatura en Sistemas,
+    Universidad Nacional de la Patagonia Austral (UNPA).
+
+    Archivo XML de playlists musicales.
+    Realizado como parte del trabajo práctico n°2 ejercicio 02",
+
+    Autor: Nicolás Butterfield
+    Año: 2025
+-->
 <playlists>
     <playlist>
         <id>1</id>
@@ -22,4 +33,3 @@
         </generos>
     </playlist>
 </playlists>
-  
