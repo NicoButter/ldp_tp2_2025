@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Ejercicio de la materia "Laboratorio de Programación" de la carrera Licenciatura en Sistemas,
+    Universidad Nacional de la Patagonia Austral (UNPA).
+
+    Hoja de estilo XSLT para transformar un archivo XML de catálogo de CDs en una página HTML
+    con una tabla de presentación.
+
+    Realizado como parte del trabajo práctico n°2, ejercicio 04.
+
+    Autor: Nicolás Butterfield
+    Año: 2025
+-->
 <xsl:transform version="1.0"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:template match="/">

@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Ejercicio de la materia "Laboratorio de Programación" de la carrera Licenciatura en Sistemas,
+    Universidad Nacional de la Patagonia Austral (UNPA).
+
+    Este archivo XSLT transforma el archivo XML de calificaciones de alumnos correspondiente al día 
+    29-05-2009, generando una visualización en HTML que muestra los detalles de los alumnos, incluyendo 
+    su nombre, materia, carrera, nota y tipo (recursante/no recursante).
+
+    Realizado como parte del trabajo práctico n°2, ejercicio 05.
+
+    Autor: Nicolás Butterfield
+    Año: 2025
+-->
 <xsl:stylesheet version="1.0"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:output method="html" indent="yes" />

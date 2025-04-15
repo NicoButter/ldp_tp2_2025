@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Ejercicio de la materia "Laboratorio de Programación" de la carrera Licenciatura en Sistemas,
+    Universidad Nacional de la Patagonia Austral (UNPA).
+
+    Archivo XML que contiene la lista de calificaciones de alumnos correspondiente al día 29-05-2009.
+    Incluye nombre, materia, carrera, nota y tipo (recursante/no recursante).
+    Este archivo es transformado mediante XSLT para generar una visualización en HTML.
+
+    Realizado como parte del trabajo práctico n°2, ejercicio 05.
+
+    Autor: Nicolás Butterfield
+    Año: 2025
+-->
 <?xml-stylesheet type="text/xsl" href="estilo.xsl"?>
 <calificaciones fecha="29-5-2009">
     <alumno tipo="recursante">

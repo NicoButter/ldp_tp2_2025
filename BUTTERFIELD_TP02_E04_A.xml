@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Ejercicio de la materia "Laboratorio de Programación" de la carrera Licenciatura en Sistemas,
+    Universidad Nacional de la Patagonia Austral (UNPA).
+
+    Archivo XML que representa un catálogo de CDs musicales, con información sobre título, artista,
+    país, compañía discográfica, precio y año de lanzamiento.
+
+    Realizado como parte del trabajo práctico n°2, ejercicio 04.
+
+    Autor: Nicolás Butterfield
+    Año: 2025
+-->
 <catalogo>
     <cd>
         <titulo>Thriller</titulo>

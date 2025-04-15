@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Trabajo Práctico Nº 2 - Tecnología XML
+ Asignatura: Laboratorio de Programación
+ Carrera: Analista de Sistemas / Licenciatura en Sistemas
+ Universidad Nacional de la Patagonia Austral
+ 
+ Ejercicio 6: Generar un informe con los promedios de alumnos a partir del XML
+             de calificaciones del ejercicio 5. El programa muestra por consola
+             el promedio de cada alumno, el promedio general, y genera un
+             nuevo documento XML con esta información.
+ 
+ Archivo de entrada: BUTTERFIELD_TP02_E05_CALIFICACIONES.xml
+ Archivo de salida: informe_promedios.xml
+ Autor: Nicolas Butterfield
+ Versión: 1.1
+ Desde: Marzo 2025-->
 <informePromedios>
     <alumno nombre="Maria Lopez">
         <promedio>35,00</promedio>
@@ -9,4 +24,5 @@
     <alumno nombre="Luis Gomez">
         <promedio>60,00</promedio>
     </alumno>
+    <promedioGeneral>55,00</promedioGeneral>
 </informePromedios>
