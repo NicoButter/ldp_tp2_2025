@@ -50,7 +50,7 @@ Representación de calificaciones de alumnos con transformación visual en HTML.
 ### 5. 🧠 `aprobados.xml`  
 Archivo generado automáticamente que contiene únicamente a los alumnos aprobados.
 
-### 6. 💻 `informeDOM.java` *(o .py, .js, según lenguaje)*  
+### 6. 💻 `informeDOM.java`  
 Programa que procesa el XML de calificaciones mediante DOM:
 
 - Calcula el promedio por alumno
@@ -87,4 +87,5 @@ Programa que procesa el XML de calificaciones mediante DOM:
 ## Nicolás Butterfield
 Estudiante de la UNPA - Carrera de Licenciatura en Sistemas  
 Apasionado por el desarrollo, el código limpio y las buenas prácticas.  
+
 _"Escribir XML sin cerrar etiquetas es como dejar la heladera abierta: algo se va a pudrir."_ 😅
