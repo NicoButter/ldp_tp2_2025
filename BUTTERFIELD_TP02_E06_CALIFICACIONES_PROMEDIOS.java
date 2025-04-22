@@ -83,7 +83,7 @@
                  " Versión: 1.1\n" +
                  " Desde: Marzo 2025"
              );
-             // Insertamos el comentario al inicio del documento, antes de la raíz
+             // InsertO el comentario al inicio del documento, antes de la raíz
              docNuevo.insertBefore(encabezado, root);
              System.out.println("");
 
