@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<aprobados>
+  <alumno>
+    <nombre>Juan Perez</nombre>
+    <materia>RPyA</materia>
+    <nota>90</nota>
+  </alumno>
+</aprobados>
