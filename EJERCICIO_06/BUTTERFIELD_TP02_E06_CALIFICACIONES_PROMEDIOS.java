@@ -1,3 +1,4 @@
+package EJERCICIO_06;
 /**
  * Trabajo Práctico Nº 2 - Tecnología XML
  * Asignatura: Laboratorio de Programación
