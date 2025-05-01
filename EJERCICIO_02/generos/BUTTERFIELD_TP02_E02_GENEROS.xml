@@ -9,7 +9,7 @@
     Autor: Nicolás Butterfield
     Año: 2025
 -->
-<generos>
+<generos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="BUTTERFIELD_TP02_E02_GENEROS.xsd">
     <genero>
         <id>101</id>
         <nombre>Rock</nombre>

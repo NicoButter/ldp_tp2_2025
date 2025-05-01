@@ -9,7 +9,7 @@
     Autor: Nicolás Butterfield
     Año: 2025
 -->
-<playlists>
+<playlists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="BUTTERFIELD_TP02_E02_PLAYLIST.xsd">
     <playlist>
         <id>1</id>
         <titulo>Rock Nacional</titulo>
@@ -21,7 +21,6 @@
             <genero_id>102</genero_id>
         </generos>
     </playlist>
-
     <playlist>
         <id>2</id>
         <titulo>Pop Latino</titulo>
