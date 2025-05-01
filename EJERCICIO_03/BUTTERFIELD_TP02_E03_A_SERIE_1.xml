@@ -10,7 +10,10 @@
     Autor: Nicolás Butterfield
     Año: 2025
 -->
-<serie cod="S01" título="Stranger Things" género="ciencia ficción">
+<serie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="BUTTERFIELD_TP02_E03_ESQUEMA.xsd"
+       cod="S01" género="ciencia ficción">
+    <título>Stranger Things</título>
     <personajes>
         <personaje id="p1" tipo="principal">
             <nombre>Eleven</nombre>

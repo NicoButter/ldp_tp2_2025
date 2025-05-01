@@ -11,7 +11,10 @@
     Autor: Nicolás Butterfield
     Año: 2025
 -->
-<serie cod="B01" título="Breaking Bad" género="drama">
+<serie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="BUTTERFIELD_TP02_E03_ESQUEMA.xsd"
+       cod="B01" género="drama">
+    <título>Breaking Bad</título>
     <personajes>
         <personaje id="p1" tipo="principal">
             <nombre>Walter White</nombre>

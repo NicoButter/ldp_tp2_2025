@@ -4,7 +4,7 @@
     Universidad Nacional de la Patagonia Austral (UNPA).
 
     Archivo XSD que define la estructura válida para un documento XML sobre series de televisión,
-    incluyendo personajes, trama, hashtags y atributos como código, título y género.
+    incluyendo personajes, trama, hashtags y atributos como código, género y título.
 
     Realizado como parte del trabajo práctico n°2, ejercicio 03.
 
@@ -12,9 +12,11 @@
     Año: 2025
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
     <xs:element name="serie">
         <xs:complexType>
             <xs:sequence>
+                <xs:element name="título" type="xs:string"/>
                 <xs:element name="personajes">
                     <xs:complexType>
                         <xs:sequence>
@@ -48,7 +50,6 @@
                 </xs:element>
             </xs:sequence>
             <xs:attribute name="cod" type="xs:string" use="required"/>
-            <xs:attribute name="título" type="xs:string" use="required"/>
             <xs:attribute name="género" use="optional">
                 <xs:simpleType>
                     <xs:restriction base="xs:string">
@@ -60,6 +61,7 @@
             </xs:attribute>
         </xs:complexType>
     </xs:element>
+
     <xs:simpleType name="generoType">
         <xs:restriction base="xs:string">
             <xs:enumeration value="M"/>
@@ -67,4 +69,5 @@
             <xs:enumeration value="O"/>
         </xs:restriction>
     </xs:simpleType>
+
 </xs:schema>
