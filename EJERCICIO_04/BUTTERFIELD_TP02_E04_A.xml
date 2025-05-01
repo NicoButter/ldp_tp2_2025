@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="BUTTERFIELD_TP02_E04_B.xsl"?>
+
 <!--
     Ejercicio de la materia "Laboratorio de Programación" de la carrera Licenciatura en Sistemas,
     Universidad Nacional de la Patagonia Austral (UNPA).
@@ -11,6 +13,7 @@
     Autor: Nicolás Butterfield
     Año: 2025
 -->
+    
 <catalogo>
     <cd>
         <titulo>Thriller</titulo>

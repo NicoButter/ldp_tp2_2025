@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 <!--
     Ejercicio de la materia "Laboratorio de Programación" de la carrera Licenciatura en Sistemas,
@@ -12,13 +13,13 @@
     Autor: Nicolás Butterfield
     Año: 2025
 -->
-<xsl:transform version="1.0"
-    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-    <xsl:template match="/">
+
+<xsl:template match="/">
         <html>
             <head>
                 <title>Catálogo de CDs</title>
                 <style>
+                    body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
                     table { border-collapse: collapse; width: 80%; margin: 20px auto; }
                     th, td { border: 1px solid black; padding: 8px; text-align: left; }
                     th { background-color: #f2f2f2; }
@@ -43,24 +44,13 @@
 
     <xsl:template match="cd">
         <tr>
-            <td>
-                <xsl:value-of select="titulo"/>
-            </td>
-            <td>
-                <xsl:value-of select="artista"/>
-            </td>
-            <td>
-                <xsl:value-of select="pais"/>
-            </td>
-            <td>
-                <xsl:value-of select="compania"/>
-            </td>
-            <td>
-                <xsl:value-of select="precio"/>
-            </td>
-            <td>
-                <xsl:value-of select="anio"/>
-            </td>
+            <td><xsl:value-of select="titulo"/></td>
+            <td><xsl:value-of select="artista"/></td>
+            <td><xsl:value-of select="pais"/></td>
+            <td><xsl:value-of select="compania"/></td>
+            <td><xsl:value-of select="precio"/></td>
+            <td><xsl:value-of select="anio"/></td>
         </tr>
     </xsl:template>
-</xsl:transform>
+
+</xsl:stylesheet>
