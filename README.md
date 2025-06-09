@@ -3,11 +3,9 @@
 </p>
 
 <h1 align="center">Trabajo Práctico N°6 - Laboratorio de Programación</h1>
-<h3 align="center">Licenciatura en Sistemas - Universidad Nacional de la Patagonia Austral</h3>
+<h3 align="center">Licenciatura en Sistemas - Universidad Nacional de la Patagonia Austral - 2025</h3>
 
 ---
-
-
 
 # Trabajo Práctico - Tecnología XML  
 📚 **Universidad Nacional de la Patagonia Austral - Argentina**  
