@@ -1,3 +1,14 @@
+<p align="center">
+  <img src="img/logo_UNPA.png" alt="Logo UNPA" height="120">
+</p>
+
+<h1 align="center">Trabajo Práctico N°6 - Laboratorio de Programación</h1>
+<h3 align="center">Licenciatura en Sistemas - Universidad Nacional de la Patagonia Austral</h3>
+
+---
+
+
+
 # Trabajo Práctico - Tecnología XML  
 📚 **Universidad Nacional de la Patagonia Austral - Argentina**  
 💻 **Asignatura:** Laboratorio de Programación  
@@ -89,3 +100,14 @@ Estudiante de la UNPA - Carrera de Licenciatura en Sistemas
 Apasionado por el desarrollo, el código limpio y las buenas prácticas.  
 
 _"Escribir XML sin cerrar etiquetas es como dejar la heladera abierta: algo se va a pudrir."_ 😅
+
+---
+
+## 🕹️ Bonus Track
+
+<p align="center">
+  <img src="img/flowey.png" alt="Epic Gamer Quote" width="500"><br>
+  <strong>"Do you think even the worst person can change...? That everybody can be a good person, if they just try?."</strong><br>
+  <em>– Flowey, Undertale</em>
+</p>
+
